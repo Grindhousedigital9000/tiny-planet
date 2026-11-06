@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tiny Planet</title>
+<meta name="description" content="Tiny Planet: a cozy little farming world you hold in your hands, for Meta Quest and PC VR.">
+<link rel="icon" href="img/icon.png">
+<style>
+  :root { --bg: #f4ecdc; --panel: #fffaf0; --line: #e3d4b8; --text: #4a2e1e; --muted: #8a6a52; --accent: #3f8f3a; --gold: #e0962a; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); }
+  .hero { position: relative; background: #8cc4f0 url(img/hero.jpg) center/cover no-repeat; aspect-ratio: 10 / 3; min-height: 200px; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(transparent 65%, var(--bg)); }
+  main { max-width: 1040px; margin: 0 auto; padding: 8px 16px 48px; }
+  .tag { text-align: center; font-size: 1.25rem; font-style: italic; color: var(--muted); margin: 8px 0 28px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin: 24px 0; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+  .card b { display: block; color: var(--gold); font-size: 1.6rem; line-height: 1.1; }
+  h2 { color: var(--accent); margin: 40px 0 10px; font-size: 1.4rem; }
+  video { width: 100%; border-radius: 14px; border: 1px solid var(--line); background: #000; display: block; }
+  .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+  .shots img { width: 100%; border-radius: 12px; border: 1px solid var(--line); display: block; }
+  ul { padding-left: 20px; }
+  footer { border-top: 1px solid var(--line); text-align: center; padding: 28px 16px; color: var(--muted); font-size: 14px; }
+  footer img { width: 72px; display: block; margin: 0 auto 10px; }
+</style>
+</head>
+<body>
+<div class="hero" role="img" aria-label="Tiny Planet key art"></div>
+<main>
+  <p class="tag">A cozy little farming world, just for you.</p>
+
+  <p>Somewhere out there is a tiny planet, and it's all yours. Farm, explore, chat with your neighbours, or just play with your chickens and hunt for new breeds. There's no winning and no losing. Plant crops, watch them grow, make your farmer your own and your house a home, and grow your planet one new biome at a time, all held right in front of you in VR.</p>
+
+  <div class="grid">
+    <div class="card"><b>13</b>biomes to grow your planet into</div>
+    <div class="card"><b>45</b>crops to plant and harvest</div>
+    <div class="card"><b>120</b>chicken breeds to find and hatch</div>
+    <div class="card"><b>16</b>villagers to befriend</div>
+  </div>
+
+  <h2>Trailer</h2>
+  <video src="trailer.mp4" controls preload="metadata" poster="img/shot1.jpg"></video>
+
+  <h2>Features</h2>
+  <ul>
+    <li>A whole round planet you can hold, spin and zoom from a full view down to your farmer's front door.</li>
+    <li>Till, plant, water and harvest; sell at Jade's stall and offer coins at the shrine to grow new biomes.</li>
+    <li>Raise a flock, catch wild chickens and cross breeds to discover new ones.</li>
+    <li>Fish, forage, and light your way at night with a lantern among glowing mushrooms.</li>
+    <li>Customize your farmer at the Looking Glass and furnish your home.</li>
+    <li>Comfort options and a play-anywhere tabletop view, seated or standing.</li>
+    <li>Fully offline. No accounts, no ads, no data collected.</li>
+  </ul>
+
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <img src="img/shot1.jpg" alt="The whole tiny planet in the sky" loading="lazy">
+    <img src="img/shot2.jpg" alt="A farm of growing crops" loading="lazy">
+    <img src="img/shot3.jpg" alt="The village in the afternoon" loading="lazy">
+    <img src="img/shot4.jpg" alt="The planet at dusk" loading="lazy">
+    <img src="img/shot5.jpg" alt="Lantern light at night" loading="lazy">
+    <img src="img/shot6.jpg" alt="Inside the farmer's home" loading="lazy">
+  </div>
+
+  <h2>Platforms</h2>
+  <p>Meta Quest, and PC VR.</p>
+</main>
+<footer>
+  <img src="img/studio.png" alt="Grindhouse Digital">
+  © 2026 Grindhouse Digital · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:drsgaming9000@gmail.com">Contact</a>
+</footer>
+</body>
+</html>
